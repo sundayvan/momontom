@@ -1,0 +1,69 @@
+body {
+  background-color: #ff6b6b;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+body {
+  color: #ff9f43;
+}
+
+li {
+  list-style: none;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  animation: fadeIn 0.5s linear;
+}
+
+.js-toDoList {
+  margin-left: -40px;
+  font-size: 0.9em;
+  font-style: oblique;
+  font-weight: 700;
+  color: white;
+}
+
+.js-weather {
+  font-weight: 800;
+  color: cornsilk;
+}
+
+h2 {
+  color: #ee5a24;
+  text-shadow: 1px 1px white;
+}

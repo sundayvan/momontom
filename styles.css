@@ -1,15 +1,22 @@
 body {
   background-color: #ff6b6b;
-  margin-left: 50px;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-  color: #ff9f43;
+  color: white;
 }
 
 li {
   list-style: none;
+}
+
+.js-clock {
+  font-size: xx-large;
+  text-shadow: 1px 1px rgb(24, 24, 24);
 }
 
 .clicked {
@@ -24,7 +31,6 @@ li {
 button {
   background: none;
   cursor: pointer;
-  margin-right: 10px;
 }
 
 .showing {
@@ -65,5 +71,4 @@ button {
 
 h2 {
   color: #ee5a24;
-  text-shadow: 1px 1px white;
 }
